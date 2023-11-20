@@ -3,31 +3,24 @@ h1 {
     justify-content: center;
 }
 
-.refeicao select{
-    margin-left: 70px;
-}
-
-.refeicao2 select{
-    margin-left: 70px;
-}
-
 .refeicao {
     display: flex;
     justify-content: center;
 }
 
+.refeicao-item {
+    display: inline-block;
+    margin: 22px;
+}
 
 .refeicao2 {
     display: flex;
     justify-content: center;
 }
 
-.refeicao input{
-    margin-right: 70;
-    width: 40px;
-}
-.refeicao2 input{
-    width: 40px;
+.refeicao3 {
+    display: flex;
+    justify-content: center;
 }
 
 .total {

@@ -90,7 +90,7 @@ h1 {
 .historicoCardiaco {
     border: 1px solid rgba(0, 163, 255, 0.7);
     border-radius: 15px;
-	background-color:#EDFBFF;
+	background-color:rgba(0, 163, 255, 0.7);
 	display:inline-block;
 	color:  black;
 	font-family:Arial;

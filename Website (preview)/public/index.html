@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="stylealimentacao.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>  
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto Pet's</title>
+</head>
+<body>
+  <!-- Conteúdo das páginas -->
+    <div id="page1" class="tab" style="display: none;">
+        <script src="scriptalimentacao.js"></script>
+        <h2>
+            <img id="logo" src="Pets.svg">
+            <a id="texto">Cronograma alimentar</a>
+        </h2>
+    <p>
+        
+        <section class="refeicao">
+            <div>
+                <h2>Refeição 1</h2>
+                    <input type="number" id="hora1"></input>
+                    <a id="ponto">:</a> 
+                    <input type="number" id="minuto1"></input>
+                    <button id="botaoBloquearDesbloquear">
+                        <img src="edit.png" alt="icone" style="width: 10px; height: 10px;">
+                    </button> 
+            </div>
+            <div>
+                <h2 class="title">Quantidade</h2>
+                    <select name="quantidade" class="selecionar">
+                        <option value="50">50g</option>
+                        <option value="100">100g</option>
+                        <option value="150">150g</option>
+                        <option value="200">200g</option>
+                    </select> 
+            </div>
+        </section>
+
+        <section class="refeicao2">
+            <div>
+                <h2>Refeição 2</h2>
+                    <input type="number" id="hora2"></input>
+                    <a id="ponto">:</a> 
+                    <input type="number" id="minuto2"></input>
+                    <button id="botaoBloquearDesbloquear2">
+                        <img src="edit.png" alt="icone" style="width: 10px; height: 10px;">
+                    </button> 
+            </div>
+            <div>
+                <h2 class="title">Quantidade</h2>
+                    <select name="quantidade" class="selecionar">
+                        <option value="50">50g</option>
+                        <option value="100">100g</option>
+                        <option value="150">150g</option>
+                        <option value="200">200g</option>
+                    </select>
+                 
+            </div>
+
+        </section>
+            <div class="total">
+                <a>Total</a>
+                <a id="resultado"></a>
+            </div> 
+    </p>
+    </div>
+  
+    <div id="page2" class="tab" style="display: block;">
+        <script src="script.js"></script>
+        <h2>
+            <img id="logo" src="Pets.svg">
+            <a id="texto1">Caramelo Care</a>
+        </h2>
+    <p>       
+        <div class="avatar">
+            <img src="animal.jpg" alt="Animal de estimação">
+        </div>
+
+    <section class="nome-bixo">
+        <h1 id="nome">Apolo</h1>
+    </section>
+    
+    <section class="info">
+        <table>
+            <tr>
+                <td><strong>Idade</strong></td>
+                <td>
+                    <span id="idade">4</span>
+                    <span>anos</span>
+                    
+                </td>
+                <td>
+                    <span class="edit-icon" id="editarIdade">
+                        <img src="edit.png" alt="Editar">   
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong>Peso</strong></td>
+                <td>
+                    <span id="peso">35</span>
+                    <span>kg</span>
+                    
+                </td>
+                <td>
+                    <span class="edit-icon" id="editarPeso">
+                        <img src="edit.png" alt="Editar">   
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><strong>Raça</strong></td>
+                <td>
+                    <span id="raça">Husky</span>
+                    
+                </td>
+                <td>
+                    <span class="edit-icon" id="editarRaca">
+                        <img src="edit.png" alt="Editar">   
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong>Cor</strong></td>
+                <td>
+                    <span id="cor">Marrom</span>
+                    
+                </td>
+                <td>
+                    <span class="edit-icon" id="editarCor">
+                        <img src="edit.png" alt="Editar">   
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </section>
+    </p>
+    </div>
+<!--
+  <div id="page3" class="tab">
+    <h2>Saúde</h2>
+    <p>
+        <link rel="stylesheet" href="stylesaude.css">
+        <script src="scriptsaude.js"></script>
+        <section class="monitoramento">
+        <h3>Monitoramento Cardíaco</h3>
+        </section>
+    
+    <section class="nome-bixo">
+        <h3>
+            Apolo
+        </h3>
+        <section class="monitor">
+            <h2>
+                ❤️ 77 BPM
+            </h2>
+        </section>        
+        
+    </section></p>
+  </div>
+--> 
+    <section class="botoes">
+        <button id="botaoPrincipal" class="botao-aba" ><img src="icone-pata.png" alt="Página Principal"></button>
+        <button id="botaoAlimentacao" class="botao-aba" ><img src="icone-alimentacao.png" alt="Alimentação"></button>
+    </section>
+  
+</body> 
+</html>

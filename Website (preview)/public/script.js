@@ -1,3 +1,51 @@
+import { initializeApp } from 'firebase/app';
+import { getDatabase, ref, once, get,  child, forEach } from 'firebase/database';
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAB3bUSrHm-h-GzToxUFtZVMZXQJSoJXpc",
+    authDomain: "projeto-integrador-46e02.firebaseapp.com",
+    databaseURL: "https://projeto-integrador-46e02-default-rtdb.firebaseio.com",
+    projectId: "projeto-integrador-46e02",
+    storageBucket: "projeto-integrador-46e02.appspot.com",
+    messagingSenderId: "844881299765",
+    appId: "1:844881299765:web:97b8cef60f3c2f30a2647c"
+};
+const app = initializeApp(firebaseConfig);
+const database = getDatabase(app);
+
+const animalRef = ref(database, 'Animal');
+get(animalRef)
+  .then((snapshot) => {
+    if (snapshot.exists()) {
+      // 'snapshot.val()' contém os dados do nó 'Animal'
+      console.log(snapshot.val());
+    } else {
+      console.log("No data available");
+    }
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+/*
+animalRef.once('value')
+  .then((snapshot) => {
+    snapshot.forEach((childSnapshot) => {
+      const animal = childSnapshot.val();
+      const cor = animal.cor;
+      const idade = animal.idade;
+      const nome = animal.nome;
+      const peso = animal.peso;
+      const raca = animal.raca;
+
+      console.log(`Nome: ${nome}, Idade: ${idade}, Cor: ${cor}, Peso: ${peso}, Raça: ${raca}`);
+    });
+  })
+  .catch((error) => {
+    console.error(error);
+});
+*/
+
 document.addEventListener('DOMContentLoaded', function() {
 
     function mostrarPagina(pageId) {

@@ -1,0 +1,82 @@
+.refeicao select{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.refeicao2 select{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.refeicao {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.151);
+    max-width: 4000px;
+    display: flex;
+    justify-content: center;
+    padding: 2cqh 0px 50px 0px;
+}
+
+
+.refeicao2 {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.151);
+    max-width: 4000px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 50px 0px;
+
+}
+
+.refeicao input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 40px;
+}
+
+.refeicao2 input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 40px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 10px 0px;
+    font-size: 40px; 
+    border: 10px;
+}
+
+.title {
+    padding-left: 40px;
+}
+
+#resultado{
+    padding-left: 40px;
+}
+
+#logo {
+    justify-content: left;
+    margin-right: 60px;
+
+}
+
+#texto {
+    max-width: 4000px;
+    font-size: 26px;
+    text-align: right;
+}
+
+#botaoBloquearDesbloquear {
+    background-color: rgba(100, 100, 100, 0);
+    margin: auto;
+}
+
+#botaoBloquearDesbloquear2 {
+    background-color: rgba(100, 100, 100, 0);
+}

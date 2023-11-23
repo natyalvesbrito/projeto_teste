@@ -1,0 +1,121 @@
+.tab {
+    max-width: 4000px;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+/* Estilos da Imagem Circular */
+.avatar {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.avatar img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 3px solid rgba(90, 195, 255, 0.7);
+    display: inline-block;
+    object-fit: cover; 
+}
+
+/* Estilos do Conteúdo Principal */
+.main {
+    text-align: center;
+    padding: 0px;
+}
+.nome-bixo {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.info {
+    text-align: center;
+    max-width: 4000px;
+    margin: 0 auto;
+}
+/* Estilo para remover a borda dos campos de entrada de texto */
+.info input[type="text"] {
+    border: none;
+    outline: none;
+}
+/* Imagem edit */
+.edit-icon img {
+    cursor: pointer;
+    width: 14px; 
+    height: 14px; 
+    display: inline-block;
+}
+
+/* Estilos para Alinhamento de Tabela */
+table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+table td {
+    padding: 15px 50px 25px 50px;
+    vertical-align: middle;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; 
+    bottom: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+.botoes button {
+    background-color:rgba(0, 162, 255, 0.1);
+    border: 1px solid rgba(0, 163, 255, 0.7);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px 10px 15px;
+    display:inline-block;
+
+}
+
+.botoes button:hover {
+    background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color:#0688fa;    
+}
+
+
+.botoes img {
+    width: 32px;
+    height: 32px;
+}
+
+#texto1 {
+    max-width: 4000px;
+    font-size: 26px;
+    text-align: right;
+    display: inline-flex;
+    margin-left: 20%;
+   
+}
+/* https://mui.com */
+
+
+p {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.151);
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: rgb(253, 253, 253);
+}

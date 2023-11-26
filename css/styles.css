@@ -1,0 +1,117 @@
+
+.tab {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+/* Estilos da Imagem Circular */
+.avatar {
+    text-align: center;
+    border-bottom: 2px solid rgba(100, 100, 100, 0.034);
+}
+
+.avatar img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    border: 3px solid rgba(1, 136, 209, 0.7);
+    display: inline-block;
+    object-fit: cover; 
+}
+
+/* Estilos do Conteúdo Principal */
+.main {
+    text-align: center;
+    padding: 0px;
+}
+.nome-bixo {
+    text-align: center;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 20px;
+
+}
+.info {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+/* Estilo para remover a borda dos campos de entrada de texto */
+.info input[type="text"] {
+    border: none;
+    outline: none;
+}
+/* Imagem edit */
+.edit-icon img {
+    cursor: pointer;
+    width: 14px; 
+    height: 14px; 
+    display: inline-block;
+}
+
+/* Estilos para Alinhamento de Tabela */
+table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+table td {
+    padding: 15px 50px 25px 30px;
+    justify-content: center
+}
+
+.botoes {
+    max-width: 768px;
+    background-color: #6a7eff98;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.botoes button {
+    background-color:#00d9ff;
+    border: 1px solid #00b7ff;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+
+}
+
+.botoes button:hover {
+    background:linear-gradient(to bottom, #95ccfd 5%, #2dabf9 100%);
+    background-color:#118ffd;    
+}
+
+
+.botoes img {
+    width: 32px;
+    height: 32px;
+}
+
+#texto1 {
+    font-size: 26px;
+    display: grid;
+    justify-content: center;
+   
+}
+
+.container {
+    background-color:#E0E5FF;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 30px; 
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 10px;
+}

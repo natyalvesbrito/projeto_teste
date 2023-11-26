@@ -1,0 +1,103 @@
+#topo{
+    background-color: #6a7eff98;
+    border-radius: 30px 30px 0px 0px;
+    padding-bottom: 5px;
+}
+.refeicao select{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.refeicao2 select{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.refeicao {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.151);
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px 50px 15px;
+}
+
+
+.refeicao2 {
+    border-top: 1px solid rgba(100, 100, 100, 0.151);
+    border-bottom: 2px solid rgba(100, 100, 100, 0.151);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 20px 15px 50px 15px;
+
+}
+
+.refeicao input{
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 40px;
+    height: 20px;
+}
+
+.refeicao2 input{
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 40px;
+    height: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 114px 0px;
+    font-size: 40px; 
+}
+
+.title {
+    padding-left: 40px;
+}
+
+#resultado{
+    padding-left: 40px;
+}
+
+#logo {
+    display: grid;
+
+}
+
+#texto {
+    font-size: 26px;
+    display: grid;
+    justify-content: center;
+    position:static;
+}
+
+#botaoBloquearDesbloquear {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#botaoBloquearDesbloquear2 {
+    background-color: transparent;
+    border: none;
+    width: 14px; 
+    height: 14px; 
+    cursor: pointer;
+}
+
+#ponto{
+    font-size: 26px;
+    padding-left: 6px;
+}
+
+#refeicao{
+    padding-left: 13px;
+}
+
